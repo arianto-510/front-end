@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header nav {
+    background-color: rgb(15, 98, 154);
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    color: white;
+}
+
+
+
+header ul {
+    display: flex;
+}
+header ul li {
+    list-style-type: none;
+    /* background-color: gray; */
+    margin-right: 30px;
+}
+
+header ul li:hover {
+    list-style-type: none;
+    /* background-color: gray; */
+    /* padding-right: 30px; */
+    background-color: white;
+    color: cyan;
+    border-radius: 5px;
+}
+
